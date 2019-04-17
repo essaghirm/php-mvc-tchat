@@ -1,0 +1,22 @@
+{% extends "_templates/base.twig" %}
+{% block content %}
+    <div class="container">
+        <h2> T’chat </h2>
+        <!-- add message form -->
+        <div>
+            <form action="{{ constant('URL') }}home/addMessage" method="POST">
+                <label>Pseudo</label>
+                <input type="text" name="pseudo" value="" required />
+                <label>Message</label>
+                <input type="text" name="message" value="" required />
+                <input type="submit" name="submit_add_message" value="Envoyer" />
+            </form>
+        </div>
+        <!-- main content output -->
+         <div class="block-tchat">
+            {% for chat in chats %}
+                <p> <b>{{ chat.pseudo }} :  </b> {{ chat.message }}</p>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

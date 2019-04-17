@@ -1,0 +1,22 @@
+body {
+  font-size: 15px;
+}
+.bold {
+  font-weight: bold;
+}
+.container {
+  border: 3px solid #000;
+  padding: 20px;
+  margin: 10px;
+}
+.container h2 {
+  color: blue;
+}
+.block-tchat{
+  margin-top: 25px;
+  height:250px;
+  overflow:scroll;
+  overflow-y:scroll;
+  overflow-x:hidden;
+  padding: 2px
+}
