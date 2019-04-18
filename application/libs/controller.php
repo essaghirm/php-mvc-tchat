@@ -33,14 +33,14 @@ class Controller
      * Load the model with the given name.
      * loadModel("ChatModel") would include models/chatmodel.php and create the object in the controller, like this:
      * $chatModel = $this->loadModel('ChatModel');
-     * @param string $model_name The name of the model
+     * @param string $modelName The name of the model
      * @return object model
      */
-    public function loadModel($model_name)
+    public function loadModel($modelName)
     {
-        require 'application/models/' . strtolower($model_name) . '.php';
+        require 'application/models/' . strtolower($modelName) . '.php';
         // return new model (and pass the database connection to the model)
-        return new $model_name($this->db);
+        return new $modelName($this->db);
     }
 
     public function render($view, $data_array = array())

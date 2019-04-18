@@ -2,8 +2,6 @@
 
 /**
  * Class Home
- *
- *
  */
 class Home extends Controller
 {

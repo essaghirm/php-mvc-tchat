@@ -13,7 +13,8 @@
       <change beforePath="$PROJECT_DIR$/../API-OPA/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../API-OPA/config/services.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../API-OPA/start_es.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../API-OPA/start_es.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../API-OPA/var/dump/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/../API-OPA/var/dump/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/_templates/base.twig" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/_templates/base.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controller/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controller/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/libs/controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/libs/controller.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,20 +28,43 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/application/_install/01-create-database.sql">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../API-OPA/.gitignore">
+        <entry file="file://$PROJECT_DIR$/application/controller/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="-124">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/libs/application.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-929" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/libs/controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/chatmodel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-262" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/_templates/base.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -49,13 +73,14 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/home/index.twig">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/config/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="30" column="15" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="15" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/application/_install/02-create-table-chat.sql">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -69,6 +94,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/application/views/_templates/base.twig" />
+        <option value="$PROJECT_DIR$/application/controller/home.php" />
+        <option value="$PROJECT_DIR$/application/libs/controller.php" />
       </list>
     </option>
   </component>
@@ -107,6 +134,36 @@
               <item name="php-mvc-tchat" type="b2602c69:ProjectViewProjectNode" />
               <item name="php-mvc-tchat" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="_install" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php-mvc-tchat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php-mvc-tchat" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php-mvc-tchat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php-mvc-tchat" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php-mvc-tchat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php-mvc-tchat" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php-mvc-tchat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php-mvc-tchat" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php-mvc-tchat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php-mvc-tchat" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -115,6 +172,30 @@
               <item name="application" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="_templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php-mvc-tchat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php-mvc-tchat" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php-mvc-tchat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php-mvc-tchat" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php-mvc-tchat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php-mvc-tchat" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php-mvc-tchat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php-mvc-tchat" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -153,22 +234,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555545001692</updated>
-      <workItem from="1555545003487" duration="3190000" />
+      <workItem from="1555545003487" duration="4271000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3190000" />
+    <option name="totallyTimeSpent" value="4271000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20121029" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.7675214" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -189,23 +269,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="30" column="15" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -233,12 +296,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/.htaccess">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/_install/02-create-table-chat.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controller/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-124">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/_install/01-create-database.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/libs/application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-929" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/libs/controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/chatmodel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-262" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/_templates/base.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/home/index.twig">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
